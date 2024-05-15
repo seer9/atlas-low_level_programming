@@ -1,2 +1,2 @@
-#include <stdio.h>
-gcc main.c > c
+#/bin/bash
+gcc -E main.c > c
