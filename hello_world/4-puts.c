@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/*main:puzzle
  *this script prnts a single link.
  *
  *function named main  prints "Programming is like building a multilingual
