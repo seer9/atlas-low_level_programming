@@ -1,9 +1,8 @@
 #include <stdio.h>
-/*main:puzzle
- *this script prnts a single link.
+/**
+ *main - something to do with puzzles.
  *
- *function named main  prints "Programming is like building a multilingual
- *puzzle"
+ *this script prints a single link.
  *
  *Return: 0
 */
