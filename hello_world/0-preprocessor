@@ -1,2 +1,2 @@
-^#!\s*/bin/bash
-export CFILE=main.c; gcc -E $CFILE -o c
+#!/bin/bash
+gcc -E $CFILE -o c
