@@ -1,2 +1,2 @@
 #!/bin/bash
-BASE=(basename "$CFILE" .c); gcc -S "$CFILE" -o "${BASE}.s"
+BASE="${CFILE%.c}.s"; gcc -S $CFILE -o $BASE
