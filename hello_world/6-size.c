@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
-<<<<<<< HEAD
- * Main - Prints the different types of file types by there size.
+ * main - Prints the different types of file types by there size.
  *
- * Returns: 0
+ * Return: 0
  */
 int main(void)
 {
