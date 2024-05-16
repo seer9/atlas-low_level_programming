@@ -1,11 +1,11 @@
 #include <stdio.h>
 /*
- this script prnts a single link.
- 
-  function named main  prints "Programming is like building a multilingual
-      puzzle"
- 
-  Return: 0
+ *this script prnts a single link.
+ *
+ *function named main  prints "Programming is like building a multilingual
+ *puzzle"
+ *
+ * Return: 0
 */
 int main(void)
 {
