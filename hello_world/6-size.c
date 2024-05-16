@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- *Main - Prints the different types of file types by there size.
- *Returns 0
+*Main - Prints the different types of file types by there size.
+*Returns 0
 */
-int main(void); 
+int main(void);
 {
 printf("Size of a char: %c byte(s)", sizeof(char));
 printf("Size of an int: %d byte(s)", sizeof(int));
