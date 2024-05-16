@@ -2,9 +2,7 @@
 /**
  *main - something to do with art.
  *
- *this script prints a single link.
- *
- *Return: 0
+ *Returns 0
 */
 int main(void)
 {
