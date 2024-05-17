@@ -15,4 +15,4 @@ int main(void)
 		putchar(truck);
 	putchar('\n');
 	return (0);
-}	
+}
