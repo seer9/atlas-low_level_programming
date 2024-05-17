@@ -7,7 +7,7 @@ int main(void)
 {
 	char nun;
 
-	for (nun = 'z'; nun >= 'a', nun--)
+	for (nun = 'z'; nun >= 'a'; nun--)
 		putchar(nun);
 
 			putchar('\n');
