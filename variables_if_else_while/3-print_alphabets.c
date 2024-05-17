@@ -2,7 +2,7 @@
 
 /**
  * main - var named 'i' is used to interate through the alphabet for the 
- * 		lowercase letters then in capital letters.
+ *		lowercase letters then in capital letters.
  * Return: 0
  */
 
