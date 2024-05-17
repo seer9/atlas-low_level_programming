@@ -3,7 +3,6 @@
 #include <stdio.h>
 
 /**
- * divide the random number by 10 to find the last number then finding the number.
  * main - assigns a random number to n.
  * return: 0
  */
