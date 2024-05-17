@@ -23,7 +23,7 @@ int main(void)
 	{
 		printf("and is less than 6 and not 0\n");
 	}
-	if (z == 0)
+	if (last  == 0)
 	{
 		printf("and is 0\n");
 	}
