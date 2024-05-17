@@ -4,6 +4,7 @@
 /**
  *main - assigns a random number to n.
  *divide the random number by 10 to find the last number then finding the number.
+ *return: 0
  */
 
 int main(void)
@@ -25,7 +26,7 @@ int main(void)
 	}
 	if (z == 0)
 	{
-	printf("and is 0\n");
+		printf("and is 0\n");
 	}
 	return (0);
 }
