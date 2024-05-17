@@ -1,10 +1,12 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
+
 /**
- *  main - The fuction checks if n is +, - or zero.
- *  Return: 0
+ * main - entry point
+ * Return: 0
  */
+
 int main(void)
 {
 	int n;
@@ -15,6 +17,11 @@ int main(void)
 	else if (n < 0)
 	printf("%d is negative\n", n);
 	else
+<<<<<<< HEAD
 	printf("%d is zero\n", n);
+=======
+		printf("%d is zero\n", n);
+
+>>>>>>> 62e7a3092070b74e39cf8fbd901678c7364febd1
 	return (0);
 }
