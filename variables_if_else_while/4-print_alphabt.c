@@ -1,6 +1,8 @@
 #include <stdio.h>
+
 /**
  * main - this is going to go through the alphabet but skip 'e' and 'q'
+ * 
  * Return: 0
  */
 
