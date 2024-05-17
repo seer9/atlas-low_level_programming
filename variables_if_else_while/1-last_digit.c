@@ -5,6 +5,7 @@
  *main - assigns a random number to n.
  *divide the random number by 10 to find the last number then finding the number.
  */
+
 int main(void)
 {
 	int n;
