@@ -10,7 +10,7 @@ int main(void)
 	for (top = '0'; top <= '9'; top++)
 	{
 		putchar(top);
-		
+
 	if (top != '9')
 	{
 		putchar(', ');
