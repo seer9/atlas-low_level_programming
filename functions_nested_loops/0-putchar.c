@@ -7,13 +7,14 @@
 int main(void)
 {
 
-	for (ole = 0; ole < 1; ole++)
-
-i		char *str = "_putchar\n";
-	}
-		while (*str)
+	for (ole = 0; ole i < 1; ole++)
+	{
+		char *str = "_putchar\n";
+whilev(*str0
         {
-            putchar(*str++);
+	putchar(*str++);
 	}
+	putchar('\n');
+}
 	return (0);
 }
