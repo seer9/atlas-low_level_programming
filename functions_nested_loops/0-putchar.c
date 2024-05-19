@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	ole();
+	ole()
 {
 	char *str = "_putchar";
 
