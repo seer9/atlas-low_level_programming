@@ -10,8 +10,7 @@ void ole(void)
 
 	while (*str)
 	{
-		putchar(*str++);
+		ole(*str++);
 	}
-	putchar('\n');
-return (0);
+	ole('\n');
 }
