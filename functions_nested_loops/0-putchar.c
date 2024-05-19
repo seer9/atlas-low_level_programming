@@ -9,7 +9,7 @@ int main(void)
 
 	for (ole = 0; ole i < 1; ole++)
 	{
-		char *str = "_putchar\n";
+		char *str = "_putchar";
 whilev(*str0
         {
 	putchar(*str++);
