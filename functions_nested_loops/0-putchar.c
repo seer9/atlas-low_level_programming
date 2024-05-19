@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	for (ole = 0; ole i < 1; ole++)
+	for (ole == 0; ole i < 1; ole++)
 	{
 		char *str = "_putchar\n";
 		while(*str)
