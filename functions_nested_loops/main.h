@@ -1,6 +1,6 @@
 #ifndef main_h
 #define main_h
 
-void ole(void);
+int ole(char c);
 
 #endif
