@@ -1,4 +1,6 @@
-#ifndef main_h
+#ifndef
 #define main_h
 
-int ole(char c);
+int ole;
+
+#endif
