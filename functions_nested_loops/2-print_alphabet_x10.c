@@ -21,7 +21,9 @@ void print_alphabet(void)
 
 void print_alphabet_x10(void)
 {
-	for (int i = 0; i < 10; i++)
+	int o;
+
+	for (o = 0; o < 10; o++)
 	{
 	print_alphabet();
 	}
