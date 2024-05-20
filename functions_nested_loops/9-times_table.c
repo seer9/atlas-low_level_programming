@@ -5,7 +5,7 @@
  *		and be double spaced unless the remainder is more then 9.
  * Return: voided
  */
-void times_table(void);
+void times_table(void)
 {
 	int i;
 	int k;
