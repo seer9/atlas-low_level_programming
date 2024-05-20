@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * times-table - this will iterate through a 9 x 9 with nested for loops
+ * times_table - this will iterate through a 9 x 9 with nested for loops
  *		and be double spaced unless the remainder is more then 9.
+ *
  * Return: voided
  */
 void times_table(void)
