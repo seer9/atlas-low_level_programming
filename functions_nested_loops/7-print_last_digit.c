@@ -10,6 +10,12 @@
 int print_last_digit(int t)
 {
 	int mod = t % 10;
-		_putchar(mod + '0');
+
+	if (mod < 0)
+
+		mod *= -1;
+
+	_putchar(mod + '0');
+
 return (mod);
 }
