@@ -28,6 +28,6 @@ void times_table(void)
 					_putchar((ixk / 10) + '0');
 				_putchar((ixk % 10) + '0');
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
