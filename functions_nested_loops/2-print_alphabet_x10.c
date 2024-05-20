@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - iterate over the alphabet all lowercase
+ * print_alphabet - iterate over the alphabet all lowercase
  *
  * Return: 0
  */
@@ -15,10 +15,14 @@ void print_alphabet(void)
 	}
 	_putchar('\n');
 }
+/**
+ * print_alphabet_x10 - iterate print_alphabet 10x
+ */
+
 void print_alphabet_x10(void)
 {
-    for (int i = 0; i < 10; i++) 
-    {
-        print_alphabet();
-    }
+	for (int i = 0; i < 10; i++)
+	{
+	print_alphabet();
+	}
 }
