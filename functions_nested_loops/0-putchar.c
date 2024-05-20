@@ -6,14 +6,15 @@
  */
 int main(void)
 {
-	{
-	char *str = "_putchar";
+    char *str = "_putchar";
+	int slam;
 
-	while (*str)
-	{
-		_putchar(*str++);
-	}
-	_putchar('\n');
+    for (slam = 0; str[slam] != '\0'; slam++)
+    {
+        _putchar(str[slam]);
+    }
+    _putchar('\n');
+
+    return 0;
 }
-return (0);
-}
+
