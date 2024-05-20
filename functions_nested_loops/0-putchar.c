@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-    char *str = "_putchar";
+    char str[] = "_putchar";
 	int slam;
-
-    for (slam = 0; str[slam] != '\0'; slam++)
+	
+    for (slam = 0; slam < 8; slam++)
     {
         _putchar(str[slam]);
     }
