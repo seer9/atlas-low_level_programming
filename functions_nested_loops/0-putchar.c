@@ -7,6 +7,7 @@
 int main(void)
 {
 	char str[] = "_putchar";
+
 	int slam;
 
 	for (slam = 0 ; slam < 8 ; slam++)
