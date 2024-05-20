@@ -2,9 +2,9 @@
 
 /**
  * jack_bauer - simple function showing every minute for every
- * 		hour of the day. basically will iterate through
- * 		the current value of min inside of the current value of
- * 		hour.
+ *		hour of the day. basically will iterate through
+ *		the current value of min inside of the current value of
+ *		hour.
  *
  */
 void jack_bauer(void)
