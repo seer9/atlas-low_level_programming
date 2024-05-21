@@ -17,16 +17,16 @@ void print_to_98(int n)
 		{
 			if (i == 98)
 			{
-				putchar('9');
-				putchar('8');
-				putchar('\n');
+				_putchar('9');
+				_putchar('8');
+				_putchar('\n');
 			break;
 			}
 			else
 			{
-				putchar(i / 10 + '0');
-				putchar(i % 10 + '0');
-				putchar(', ');
+				_putchar(i / 10 + '0');
+				_putchar(i % 10 + '0');
+				_putchar(', ');
 			}
 		}
 	}
@@ -38,16 +38,16 @@ void print_to_98(int n)
 			if (i == 98)
 
 			{
-				putchar('9');
-				putchar('8');
-				putchar('\n');
+				_putchar('9');
+				_putchar('8');
+				_putchar('\n');
 			break;
 		}
 			else
 			{
-				putchar(i / 10 + '0');
-				putchar(i % 10 + '0');
-				putchar(', ');
+				_putchar(i / 10 + '0');
+				_putchar(i % 10 + '0');
+				_putchar(', ');
 			}
 		}
 	}
