@@ -11,7 +11,7 @@ void print_to_98(int n)
 
 	int xray = sizeof(numbers) / sizeof(numbers[0]);
 
-	for (n = 0; n < size; n++)
+	for (n = 0; n < xray; n++)
 {
 	print_to_98(numbers[i]);
 }
@@ -39,8 +39,5 @@ void print_to_98(int n)
 		printf("-10");
 	}
 	else
-	{
-		printf("%d", num);
-	}
 	printf("\n");
 }
