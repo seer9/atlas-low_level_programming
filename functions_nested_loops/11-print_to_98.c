@@ -11,7 +11,7 @@ void print_to_98(int n);
 
 	int xray = sizeof(numbers) / sizeof(numbers[0]);
 
-	for (int i = 0; i < size; i++)
+	for (n = 0; i < size; i++)
 {
 	print_to_98(numbers[i]);
 }
