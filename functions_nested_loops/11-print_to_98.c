@@ -5,13 +5,13 @@
  *
  * @n: variable.
  */
-void print_to_98(int n);
+void print_to_98(int n)
 {
 	int numbers[] = {0, 98, 111, 81, -10};
 
 	int xray = sizeof(numbers) / sizeof(numbers[0]);
 
-	for (n = 0; i < size; i++)
+	for (n = 0; n < size; n++)
 {
 	print_to_98(numbers[i]);
 }
