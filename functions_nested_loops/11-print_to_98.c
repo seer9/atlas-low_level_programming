@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
+ * print_to_98 - decription.
  *
+ * @n: variable in function.
  *
  */
 
@@ -11,27 +13,28 @@ void print_to_98(int n)
 	{
 		for (int i = n; i <= 98; i++)
 		{
-            		if (i == 98)
+			if (i == 98)
 			{
 				putchar('9');
 				putchar('8');
 				putchar('\n');
 			break;
-            		}
-			else 
-	    		{
-				putchar(i / 10 + '0'); // First digit
-				putchar(i % 10 + '0'); // Second digit
+			}
+			else
+			{
+				putchar(i / 10 + '0');
+				putchar(i % 10 + '0');
 				putchar(', ');
 			}
 		}
-	}	
+	}
 		else
 		{
 		for (int i = n; i >= 98; i--)
-		{
-		if (i == 98)
-		{
+			{
+			if (i == 98)
+
+			{
 				putchar('9');
 				putchar('8');
 				putchar('\n');
@@ -39,8 +42,8 @@ void print_to_98(int n)
 		}
 			else
 			{
-				putchar(i / 10 + '0'); // First digit
-				putchar(i % 10 + '0'); // Second digit
+				putchar(i / 10 + '0');
+				putchar(i % 10 + '0');
 				putchar(', ');
 			}
 		}
