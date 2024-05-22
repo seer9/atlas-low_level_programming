@@ -10,6 +10,6 @@ void print_numbers(void)
 {
 int n;
 for (n = 0; n <= 9; n++)
-    _putchar("%i", n);
+    _putchar("%ld", n);
     _putchar("\n");
 }
