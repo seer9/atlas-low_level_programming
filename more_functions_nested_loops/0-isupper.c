@@ -8,10 +8,8 @@
  */
 int _isupper(int c)
 {
-if (c <= 'A' || c >= 'B')
-return (1);
-}
-if (c > '0')
-{
+if (c >= 'a' && c <= 'z')
 return (0);
+else
+return (1);
 }
