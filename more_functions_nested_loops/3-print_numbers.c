@@ -3,7 +3,6 @@
 /**
  * print_numbers - this is going to iterate through 9.
  *
- * @n: the variable going throught the numbers.
  * Return: void
  */
 void print_numbers(void)
