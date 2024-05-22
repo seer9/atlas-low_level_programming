@@ -4,7 +4,7 @@
  * _isupper - i supper
  *
  * @c: is the variable giving us the value A or a. Simple.
- * Return: basically tricked it with or.
+ * Return: 1 or 0
  */
 int _isupper(int c)
 {
