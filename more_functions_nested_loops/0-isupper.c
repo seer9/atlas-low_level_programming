@@ -12,5 +12,6 @@ if (c <= 'A' || c >= 'B')
 return (1);
 }
 if (c > '0')
+{
 return (0);
 }
