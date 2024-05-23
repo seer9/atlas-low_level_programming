@@ -4,9 +4,6 @@
  * Return: void
  *
  */
-
-
-
 void more_numbers(void)
 {
 	for (long s = 0; s < 10; s++)
