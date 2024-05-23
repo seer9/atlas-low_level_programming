@@ -12,10 +12,10 @@ void more_numbers(void)
 		{
 			if (t > 9)
 			{
-				putchar((t / 10) + '0');
+				_putchar((t / 10) + '0');
 			}
-			putchar((t % 10) + '0');
+			_putchar((t % 10) + '0');
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
