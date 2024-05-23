@@ -27,5 +27,10 @@ void print_diagonal(int n)
 		{
 			break;
 		}
+		if (n < 0)
+		{
+			_putchar('-');
+		}
 	}
+
 }
