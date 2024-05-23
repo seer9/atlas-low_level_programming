@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * print_diagonal - n is the static location of putchar. i and c are moving to
- * to the value of n.
+ * print_diagonal - prints spaces before the escape keys to create the line.
  *
- * @n: this is the \ key placer variable i believe.
+ * @n: prints the line.
  */
+
 
 void print_diagonal(int n)
 {
@@ -12,25 +12,20 @@ void print_diagonal(int n)
 
 	while (n > 0)
 	{
+		if (n < 0)
+		{
+			break;
+		}
 		int i = c;
 
 		while (i > 0)
 		{
-			_putchar(' ');
+			putchar(' ');
 			i--;
 		}
-		_putchar('\\');
-		_putchar('\n');
+		putchar('\\');
+		putchar('\n');
 		c++;
 		n--;
-		if (c < 1)
-		{
-			break;
-		}
-		if (n < 0)
-		{
-			_putchar('\n');
-		}
 	}
-
 }
