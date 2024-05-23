@@ -11,19 +11,19 @@ void print_line(int n)
 
 	if (n < 0) 
 	{
-		putchar('-');
-		putchar('\n');
+		_putchar('-');
+		_putchar('\n');
 		return;
 	}
 	else if
 		(n == 0)
 		{
-			putchar('\n');
+			_putchar('\n');
 			return;
 		}
 	for (t = 0; t < n; t++)
 	{
-		putchar('_');
+		_putchar('_');
 	}
-	putchar('\n');
+	_putchar('\n');
 } 
