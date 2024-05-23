@@ -5,29 +5,29 @@
  * @n: prints the line.
  */
 
-void print_diagonal(int length)
+void print_diagonal(int n)
 {
-	if (length > 0)
+	if (n > 0)
 	{
 
 		int col = 0;
 
-		while (col < length)
+		while (col < n)
 		{
 			int space = 0;
 
 			while (space < col)
 			{
-				putchar(' ');
+				_putchar(' ');
 				space++;
 			}
-			putchar('\\');
-			putchar('\n');
+			_putchar('\\');
+			_putchar('\n');
 			col++;
 		}
 	}
 	else
 	{
-		putchar('\n');
+		_putchar('\n');
 	}
 }
