@@ -1,22 +1,29 @@
 #include "main.h"
 /**
- * print_line - this prints a line varying in length.
- * 
- * @n: decides how long the line is.
+ * print_line - creates lines based on the value of n.
+ *
+ * @n: determines the length.
  */
 
 void print_line(int n)
 {
 	int t;
 
-	if (n <= 0)
+	if (n < 0) 
 	{
-		_putchar ('\n');
+		putchar('-');
+		putchar('\n');
+		return;
 	}
-	else
-		for (; t <= n; t++)
+	else if
+		(n == 0)
 		{
-			_putchar('_');
+			putchar('\n');
+			return;
 		}
-	_putchar('\n');
-}
+	for (t = 0; t < n; t++)
+	{
+		putchar('_');
+	}
+	putchar('\n');
+} 
