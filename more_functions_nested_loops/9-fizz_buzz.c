@@ -19,7 +19,7 @@ int main(void)
 		{
 			printf("Buzz");
 		}
-		else
+		else if
 		{
 			printf("%d", count);
 		}
