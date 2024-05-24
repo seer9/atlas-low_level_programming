@@ -16,19 +16,19 @@ int main(int count)
 		{
 			printf("Fizz");
 		}
-		if (count % 5 == 0)
-		{
+			else if (count % 5 == 0)
+			{	
 			printf("Buzz");
-		}
-		if (count % 3 != 0 && count % 5 != 0)
-		{
-			printf("%d", count);
-		}
-		if (count == 100)
-		{
+				}
+				else (count % 3 != 0 && count % 5 != 0)
+				{
+				printf("%d", count);
+				}
+			if (count == 100)
+			{
 			printf("\n");
-		}
-		printf(" ");
+			}
+	printf(" ");
 	}
-	return (0);
+return (0);
 }
