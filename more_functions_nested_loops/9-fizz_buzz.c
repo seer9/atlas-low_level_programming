@@ -1,14 +1,11 @@
-#include "main.h"
-#include <stdio.h>
-
 /**
- * Fizz - Buzz
+ * main - Buzz
  *
  *@count: the counter
  *Return: 0
  */
 
-int main()
+int main(void)
 {
 	int count;
 
