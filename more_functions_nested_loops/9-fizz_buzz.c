@@ -28,4 +28,5 @@ int Fizz(int count)
 		}
 		printf(" ");
 	}
+	return (0);
 }
