@@ -8,7 +8,7 @@
  *Return: 0
  */
 
-int main(int)
+int main()
 {
 	for (count = 1; count <= 100; count++)
 	{
