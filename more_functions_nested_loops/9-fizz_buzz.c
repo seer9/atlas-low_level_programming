@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - Buzz
+ * Fizz - Buzz
  *
  *@count: the counter
  *Return: 0
