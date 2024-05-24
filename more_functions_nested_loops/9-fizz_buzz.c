@@ -6,7 +6,7 @@
  *@count: the counter
  *Return: 0
  */
-int main(int count)
+int Fizz(int count)
 {
 	for (count = 1; count <= 100; count++)
 	{
@@ -28,5 +28,4 @@ int main(int count)
 		}
 		printf(" ");
 	}
-	return (0);
 }
