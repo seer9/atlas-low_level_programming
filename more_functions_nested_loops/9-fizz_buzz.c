@@ -1,11 +1,14 @@
+#include "main.h"
 #include <stdio.h>
+
 /**
  * Fizz - Buzz
  *
  *@count: the counter
  *Return: 0
  */
-int Fizz(int count)
+
+int main(int count)
 {
 	for (count = 1; count <= 100; count++)
 	{
