@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Buzz
+ * Fuzz - Buzz
  *
  * Return: 0
  */
@@ -19,11 +19,14 @@ int Fuzz(void)
 		{
 			printf("Buzz");
 		}
+		if (count != 100)
+		{
+			printf(" ");
+		}
 		else if (!(count % 3 == 0) && !(count % 5 == 0))
 		{
 			printf("%d", count);
 		}
-	printf(" ");
 	}
 return (0);
 }
