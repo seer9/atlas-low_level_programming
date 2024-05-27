@@ -23,9 +23,10 @@ int main(void)
 		{
 			printf("%d", count);
 		}
-	if (count != 100)
-	{
-	printf(" ");
+		if (count != 100)
+		{
+		printf(" ");
+		}
 	}
 return (0);
 }
