@@ -5,7 +5,7 @@
  * Return: 0
  */
 
-int Fuzz(void)
+int main(void)
 {
 	int count;
 
