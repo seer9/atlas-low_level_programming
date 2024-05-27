@@ -19,7 +19,7 @@ int main(void)
 		{
 			printf("Buzz");
 		}
-		else if (!(count % 3) && !(count % 5))
+		else if (!(count % 3 == 0) && !(count % 5 == 0))
 		{
 			printf("%d", count);
 		}
