@@ -1,20 +1,23 @@
 #include "main.h"
 /**
- * _strcat - puts 2 strings together voiding null bite.
+ * _strcat - adds src to dest.
  *
- * @dest: the first string.
- * @src: appends to dest.
- * Return: both strings together.
+ * @dest: both strings together.
+ * @src: depending on the size of dest it adds letters.
+ * Return: dest
+ *
  */
 
-char *_strcat(char *dest, char *src)
+har *_strcat(char *dest, char *src)
 {
-	size_t dest_len = _strlen(dest);
-	size_t i;
-
-	for (i = 0; src[i] != '\0'; i++)
+	int dest_len;
+	int i;
+	
+	for (dest_len = 0 ;dest[dest_len] != '\0' ; dest_len++)
+	{}
+	for (i = 0 ;src[i] != '\0' ; i++)
+	{
 		dest[dest_len + i] = src[i];
-	dest[dest_len + i] = '\0';
-
+	}
 	return (dest);
 }
