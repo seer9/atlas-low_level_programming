@@ -5,7 +5,7 @@
  * @a: this is the pointer that looks at a in the main function.
  * @n: the max number of elements in the array.
  */
-void rev_array(int *a, int n)
+void reverse_array(int *a, int n)
 {
     int tpy;
     int p;
