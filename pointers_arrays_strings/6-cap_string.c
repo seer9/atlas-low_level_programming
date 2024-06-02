@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * cap_string - Caps each new word in the string. 
+ * cap_string - Caps each new word in the string.
  *
  * @str: The string being modified.
+ * Return: the modified string.
  */
 
 
