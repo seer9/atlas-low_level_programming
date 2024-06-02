@@ -7,15 +7,13 @@
  */
 void rev_array(int *a, int n)
 {
-	int rev;
+    int tpy;
+    int p;
 
-	for (rev = n - 1; rev >= 0; rev--)
-	{
-		if (rev != n - 1)
-		{
-			printf(", ");
-		}
-		printf("%d", a[rev]);
-	}
-	printf("\n");
+    for (p = n - 1; p >= n / 2; p--)
+    {
+        tpy = a[n - 1 - p];
+        a[n - 1 - p] = a[p];
+        a[p] = tpy;
+    }
 }
