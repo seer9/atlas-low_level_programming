@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * strstr - fjvfjv 
+ * _strstr - ckvmviv
  * 
  * @haystack: vjcvmv
  * @needle: jrvmvvv
