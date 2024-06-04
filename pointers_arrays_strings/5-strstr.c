@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _strstr - ckvmviv
- * 
+ *
  * @haystack: vjcvmv
  * @needle: jrvmvvv
  * Return: kvivi
