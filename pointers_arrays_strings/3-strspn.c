@@ -4,7 +4,7 @@
  *
  * @s: This is the sentence.
  * @accept: This is the
- *
+ * Return: number of bytes.
  *
  */
 unsigned int _strspn(char *s, char *accept)
