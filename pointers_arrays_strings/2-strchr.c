@@ -2,8 +2,8 @@
 /**
  * _strchr - searches for characters within a string.
  *
- * s: is a pointer to the string you want to search.
- * c: the character you're searching for.
+ * @s: is a pointer to the string you want to search.
+ * @c: the character you're searching for.
  *
  * Return: the occurances of l.
  */
