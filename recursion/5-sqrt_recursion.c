@@ -11,13 +11,12 @@
  */
 int finder(int n, int bottom, int top)
 {
+	int mid;
+
 	if (bottom > top)
 	{
 		return (-1);
-	}
-
-	int mid; 
-		
+	}	
 	mid = bottom + ((top - bottom) / 2);
 
 	if (mid * mid == n)
