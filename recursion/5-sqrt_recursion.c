@@ -16,7 +16,9 @@ int finder(int n, int bottom, int top)
 		return (-1);
 	}
 
-	int mid = bottom + ((top - bottom) / 2);
+	int mid; 
+		
+	mid = bottom + ((top - bottom) / 2);
 
 	if (mid * mid == n)
 	{
