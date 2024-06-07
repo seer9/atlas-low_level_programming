@@ -1,19 +1,5 @@
 #include "main.h"
 /**
- * _sqrt_recursion - find the square root of a number.
- *
- * @n: the number provided in main.
- * Return: -1 if less then 0 or the output from the function
- */
-int _sqrt_recursion(int n)
-{
-	if (n < 0)
-	{
-		return (-1);
-	}
-	return (finder(n, 0, n / 2 + 1));
-}
-/**
  * finder - searches before and after the number.
  *
  * @n: given by main.
@@ -43,4 +29,19 @@ int finder(int n, int bottom, int top)
 	{
 		return (finder(n, bottom, mid - 1));
 	}
+}
+
+/**
+ * _sqrt_recursion - find the square root of a number.
+ *
+ * @n: the number provided in main.
+ * Return: -1 if less then 0 or the output from the function
+ */
+int _sqrt_recursion(int n)
+{
+	if (n < 0)
+	{
+		return (-1);
+	}
+	return (finder(n, 0, n / 2 + 1));
 }
