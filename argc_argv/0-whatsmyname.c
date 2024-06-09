@@ -2,12 +2,13 @@
 /**
  * main - This prints the name of the name of the file.
  *
- * argv - name of the program.
+ * @argc: need for argv array.
+ * @argv: position 0 is name of the program.
  * Return: the name.
  *
  */
 
-int main(char *argv[])
+int main(int argc, char *argv[])
 {
 	_putchar("%s\n", argv[0]);
 	return (0);
