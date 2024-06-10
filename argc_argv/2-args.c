@@ -5,13 +5,13 @@
  *
  *
  */
-int main(int __attribute__((unused)) argc, char *argv[])
+int main(int argc, char *argv[])
 {
-        int n;
+        int a;
 	
-	for (int n = 1; n < argc; n++)
+	for (int a = 0; a < argc; a++)
 	{
-		printf("%s\n", argv[n]);
+		printf("%s\n", argv[a]);
 	}
 	return (0);
 }
