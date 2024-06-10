@@ -7,9 +7,11 @@
  */
 int main(int __attribute__((unused)) argc, char *argv[])
 {
-        for (int i = 1; i < argc; i++)
+        int n;
+	
+	for (int n = 1; n < argc; n++)
 	{
-		printf("%s\n", argv[i]);
+		printf("%s\n", argv[n]);
 	}
 	return (0);
 }
