@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include <stdio.h>
 /**
  * main - multiply fn and sn but only if
