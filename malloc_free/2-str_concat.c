@@ -14,7 +14,7 @@
 char *str_concat(char *s1, char *s2)
 {
 	char *new_str;
-	unsigned int k, length, s2len;
+	unsigned int i, length, s2len;
 
 	length = 0;
 	s2len = 0;
@@ -40,7 +40,8 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
-	for (int i = 0; i < length + s2len; i++)
+	i = 0;
+	for (; i < length + s2len; i++)
 	{
 		if (i < length)
 		{
