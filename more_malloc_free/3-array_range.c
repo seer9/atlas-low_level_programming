@@ -6,7 +6,7 @@
 /**
  * array_range - creates an array of integers
  * and allocates the adequate amount.
- * 
+ *
  * @min: first intput parameter
  * @max: second input parameter
  *
@@ -15,25 +15,24 @@
 
 int *array_range(int min, int max)
 {
-  int *arr, index, length;
+	int *arr, index, length;
 
-  if (min > max)
-    return (NULL);
+	if (min > max)
+		return (NULL);
 
-  length = max - min + 1;
+	length = max - min + 1;
 
-  arr = malloc(sizeof(int) * length);
+	arr = malloc(sizeof(int) * length);
 
-  if (arr == NULL)
-    return (NULL);
+	if (arr == NULL)
+		return (NULL);
 
-  index = 0;
+	index = 0;
 
-  while (index < length)
-    {
-      arr[index] = min + index;
-      index++;
-    }
-
-  return (arr);
+	while (index < length)
+	{
+		arr[index] = min + index;
+		index++;
+	}
+	return (arr);
 }
