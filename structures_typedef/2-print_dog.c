@@ -1,5 +1,5 @@
 #include "dog.h"
-#include <stdlib.h>
+#include <stdio.h>
 /**
  * print_dog - create a variable of type dog
  * @d: passes the struct dog to the function
