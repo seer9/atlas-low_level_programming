@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 
     if (argc != 4)
     {
-        fprintf(stderr, "Error\n"); // Use fprintf for standard error
+        printf("Error\n");
         return (98);
     }
 
@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
     int (*func)(int, int) = get_op_func(argv[2]);
     if (func == NULL)
     {
-        fprintf(stderr, "Error\n"); // Use fprintf for standard error
+        printf("Error\n");
         return (99);
     }
 
