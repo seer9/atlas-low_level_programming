@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(98);
 	}
-	op = argv[2];
+	op = *argv[2];
 	a = atoi(argv[1]);
 	b = atoi(argv[3]);
 	/* Get the function pointer */ 
@@ -29,6 +29,11 @@ int main(int argc, char *argv[])
 	{
 		printf("Error\n");
 		exit(99);
+	}
+	if ((o == '/' || o == '%') && arg2 == 0)
+	{
+		printf("Error\n");
+		exit(100);
 	}
 	/* Call the function and store the result */
 	res = func(a, b);
