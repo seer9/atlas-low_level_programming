@@ -1,3 +1,12 @@
+#include "calc.h"
+/**
+ * get_op_func - knows which op the user is wanting to use.
+ * 
+ * @s: operators
+ *
+ * Return: the correct corresponding operator.
+ */
+
 int (*get_op_func(char *s))(int, int)
 {
 	op_t ops[] = {
@@ -9,3 +18,13 @@ int (*get_op_func(char *s))(int, int)
 		{NULL, NULL}
 	};
 	int i;
+	
+	i = 0;
+	while (ops[i].op != NULL)
+	{
+		if (strcmp(s, ops[i].op) == 0)
+			return (ops[i].f);
+		i++;
+	}
+	return (NULL);
+}
