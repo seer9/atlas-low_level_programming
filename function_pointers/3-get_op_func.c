@@ -1,4 +1,4 @@
-#include "calc.h"
+#include "3-calc.h"
 /**
  * get_op_func - knows which op the user is wanting to use.
  * 
