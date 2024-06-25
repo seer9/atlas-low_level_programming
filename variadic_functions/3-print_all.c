@@ -12,9 +12,11 @@ void print_all(const char * const format, ...)
 	va_list arguments;
 
 	va_start(arguments, format);
+	index = 0;
+
 	if (format)
 	{
-		while (format[index]; index = 0)
+		while (format[index])
 		{
 			switch (format[index])
 			{
