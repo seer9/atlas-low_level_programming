@@ -18,7 +18,7 @@ int _strlen(char *s)
 }
 /**
   * add_node - fills memory with a constant byte
-  * 
+  *
   * @head: names in the list
   * @str: is a string
   * Return: a address
