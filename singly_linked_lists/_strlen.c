@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <unistd.h>
 /**
  * _strlen - function used to count over a strang.
  * @s: the actual string that is being iterated over.
