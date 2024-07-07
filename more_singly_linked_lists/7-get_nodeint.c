@@ -3,8 +3,8 @@
  * get_nodeint_at_index - finds a specific node
  * in the list
  *
- * @head:
- * @index:
+ * @head: the list
+ * @index: the node being found.
  *
  * Return: NULL if it doesnt find it or finds it.
  */
