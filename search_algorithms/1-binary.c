@@ -29,7 +29,6 @@ int binary_search(int *array, size_t size, int value)
     /* check the middle for the value */
         if (array[mid] == value)
         {
-            printf("Found value at index: %lu\n", mid);
             return (mid);
         }
     /* if the middle is less than the target, search the right half */
